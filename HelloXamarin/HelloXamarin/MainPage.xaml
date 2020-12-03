@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloXamarin.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="Title" Placeholder="Title" WidthRequest="150"></Entry>
+            <Entry x:Name="Name" Placeholder="Name" WidthRequest="150"></Entry>
+            <Entry x:Name="Password" Placeholder="Password" WidthRequest="150"></Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="SubmitButton" Clicked="SubmitButton_Clicked" Text="Submit"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
